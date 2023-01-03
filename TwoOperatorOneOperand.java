@@ -7,7 +7,7 @@ public class TwoOperatorOneOperand {
         int num1 = sc.nextInt(), num2 = sc.nextInt();
         System.out.print("Write which operation need to be performed +,-,*,/ : ");
         char c = sc.next().charAt(0);
-        float answer = (c=='+') ? (num1 + num2):((c=='-') ? (num1 - num2) : ((c=='*') ? (num1*num2):(((float)num1/num2))));
+        float answer = (c=='+') ? (num1 + num2):((c=='-') ? (num1 - num2) : ((c=='*') ? (num1*num2):(((float)num1/num2)))); //conditional operator is used
         System.out.println(answer); 
 
         sc.close();
