@@ -7,7 +7,7 @@ public class LargestNum {
         int num1 = sc.nextInt(), num2 = sc.nextInt();
         int number = (num1>num2) ?  num1 : num2;
         System.out.println("The greater number is : " + number);
-
+        sc.close();
     }
     
 }
